@@ -1,7 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 import cors  from 'cors';
-import userRoute from "./routes/userRoute.js"
+// import userRoute from "./routes/userRoute.js"
 // import todoRoute from './routes/taskRoute.js'
 import authRoute from "./routes/authRoute.js";
 
