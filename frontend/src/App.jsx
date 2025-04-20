@@ -39,7 +39,7 @@ import RequireAuth from './utils/RequireAuth';
 import LandingPage from './pages/LandingPage';
 import Register from './pages/Register';
 import "./App.css"
-import MapView from './components/MapView';
+// import MapView from './components/MapView';
 
 const App = () => {
   return (
@@ -47,7 +47,7 @@ const App = () => {
         <Route path="/" element={<LandingPage />} />
       <Route path="/register" element={<Register />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/map" element={<MapView />} />
+      {/* <Route path="/map" element={<MapView />} /> */}
 
         {/* USER + ADMIN */}
         <Route element={<RequireAuth allowedRoles={['user', 'admin']} />}>
