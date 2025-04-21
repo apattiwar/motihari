@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:8085/api',
+  baseURL: 'https://motihari-1.onrender.com/api',
 });
 
 axiosInstance.interceptors.request.use((config) => {
